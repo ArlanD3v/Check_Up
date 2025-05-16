@@ -1,32 +1,31 @@
 {
-  "name": "check-up-mobile",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "@expo/metro-runtime": "5.0.4",
-    "@fortawesome/fontawesome-svg-core": "6.7.2",
-    "@fortawesome/free-regular-svg-icons": "6.7.2",
-    "@fortawesome/react-fontawesome": "0.2.2",
-    "@fortawesome/react-native-fontawesome": "0.3.2",
-    "expo": "53.0.9",
-    "expo-status-bar": "2.2.3",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-native": "0.79.2",
-    "react-native-svg": "15.12.0",
-    "react-native-web": "0.20.0"
-  },
-  "devDependencies": {
-    "@babel/core": "7.27.1",
-    "@tailwindcss/postcss": "^4.1.7",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.7"
-  },
-  "private": true
+	"name": "check-up-mobile",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"@expo/metro-runtime": "5.0.0",
+		"@fortawesome/fontawesome-svg-core": "6.7.2",
+		"@fortawesome/free-regular-svg-icons": "6.7.2",
+		"@fortawesome/react-fontawesome": "0.2.2",
+		"@fortawesome/react-native-fontawesome": "0.3.2",
+		"expo": "53.0.9",
+		"expo-status-bar": "2.2.3",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"react-native": "0.79.2",
+		"react-native-svg": "15.12.0",
+		"react-native-web": "0.20.0"
+	},
+	"private": true,
+	"devDependencies": {
+		"autoprefixer": "^10.4.21",
+		"postcss": "^8.5.3",
+		"tailwindcss": "3"
+	}
 }
