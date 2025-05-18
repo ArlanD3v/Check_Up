@@ -9,6 +9,7 @@ export const COLORS = {
 	gray2: "a0a0a0",
 	gray3: "#E4E4E4",
 	gray4: "#f1f5f4",
+	orange: "#b1e6d1"
 }
 
 export const FONT_SIZE = {

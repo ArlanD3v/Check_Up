@@ -12,5 +12,3 @@ function Button(props) {
 }
 
 export default Button;
-
-//1:15
