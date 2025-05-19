@@ -1,28 +1,28 @@
 {
 	"expo": {
-		"name": "check-up-mobile",
+		"name": "Check UP ^",
 		"slug": "check-up-mobile",
-		"version": "1.0.0",
+		"version": "1.0.1",
 		"orientation": "portrait",
-		"icon": "./src/assets/LogoIcon.png",
-		"userInterfaceStyle": "light",
+		"icon": "./src/assets/Logo.png",
+		"userInterfaceStyle": "dark",
 		"newArchEnabled": true,
 		"splash": {
-			"image": "./src/assets/LogoIcon.png",
-			"resizeMode": "adaptiveIcon",
-			"backgroundColor": "#ffffff"
+			"image": "./src/assets/Logo.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#F55B50"
 		},
 		"ios": {
 			"supportsTablet": true
 		},
 		"android": {
 			"adaptiveIcon": {
-				"foregroundImage": "./src/assets/LogoIcon.png",
-				"backgroundColor": "#451a3e"
+				"foregroundImage": "./src/assets/Logo.png",
+				"backgroundColor": "#F55B50"
 			}
 		},
 		"web": {
-			"favicon": "./src/assets/LogoIcon.png"
+			"favicon": "./src/assets/Logo.png"
 		}
 	}
 }

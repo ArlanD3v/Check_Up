@@ -5,7 +5,7 @@ export const styles = {
 	container: {
 		backgroundColor: COLORS.green1,
 		flex: 1,
-		justifyContent: "space-between",
+		justifyContent: "space-around",
 		padding: 40,
 	},
 	containerLogo: {
@@ -13,11 +13,9 @@ export const styles = {
 	},
 
 	logo: {
-
-		width: 290,
-		height: 250,
+		width: 340,
+		height: 120,
 	},
-
 
 	containerInput: {
 		marginBottom: 15,

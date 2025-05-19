@@ -1,3 +1,6 @@
+.green0{
+	color: #81C784;
+}
 .green_1{
 	color:#b1e6d1
 }
@@ -19,19 +22,20 @@
 	background-color: #3d7b80;
 }
 
-.roxo_fort{
-	color: #270a33;
-}
-.Broxo_fort{
-	background-color: #270a33;
+
+.colors{
+color: #dbdbdb;
+color: #a0a0a0;
+color: #E4E4E4;
+color: #f1f5f4;
+color:#f51734;
+
+color:#FF0085;
+color:#0046A7;
+
+color: #451a3e;
+color: #270a33;
+
 }
 
-.vinho{
-	color:#451a3e ;
-}
-.Borange{
-	background-color: #8f8f8f ;
-	
-}
-
-/*criar logo com : #1E919E + rgba(69, 26, 62, 1) */
+/*coolors.co/palettes/popular/#b1e6d1*/
