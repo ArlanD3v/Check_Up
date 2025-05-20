@@ -1,9 +1,9 @@
-import { COLORS, FAMILY } from "../../constants/theme.js"
+import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 
 export const styles = {
 
 	container: {
-		backgroundColor: COLORS.green1,
+		backgroundColor: COLORS.bgApp,
 		flex: 1,
 		justifyContent: "space-around",
 		padding: 40,
@@ -13,12 +13,15 @@ export const styles = {
 	},
 
 	logo: {
-		width: 340,
-		height: 120,
+
+		width: 300,
+		height: 208,
+
 	},
 
 	containerInput: {
 		marginBottom: 15,
+
 	},
 
 	input: {
@@ -28,17 +31,22 @@ export const styles = {
 
 	},
 
+	btCenter: {
+		alignItems: "center",
+		justifyContent: "center"
+	},
 
 	footer: {
 		alignItems: "center",
 		justifyContent: "center",
 		flexDirection: "row",
+		fontSize: FONT_SIZE.md,
 
 	},
 
-
 	footerLink: {
 		color: COLORS.blue,
+		fontSize: FONT_SIZE.lg,
 	},
 
 	devCreator: {
@@ -50,7 +58,6 @@ export const styles = {
 	devCreatorColor: {
 		color: COLORS.colorDev,
 		borderRadius: 3,
-		backgroundColor: COLORS.green2
 	}
 
 }

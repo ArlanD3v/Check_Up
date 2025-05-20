@@ -1,14 +1,14 @@
 {
 	"expo": {
-		"name": "Check UP ^",
+		"name": "Check UP",
 		"slug": "check-up-mobile",
 		"version": "1.0.1",
 		"orientation": "portrait",
-		"icon": "./src/assets/Logo.png",
+		"icon": "./src/assets/logoNome.png",
 		"userInterfaceStyle": "dark",
 		"newArchEnabled": true,
 		"splash": {
-			"image": "./src/assets/Logo.png",
+			"image": "./src/assets/logoNome.png",
 			"resizeMode": "contain",
 			"backgroundColor": "#F55B50"
 		},
@@ -17,12 +17,12 @@
 		},
 		"android": {
 			"adaptiveIcon": {
-				"foregroundImage": "./src/assets/Logo.png",
+				"foregroundImage": "./src/assets/logoNome.png",
 				"backgroundColor": "#F55B50"
 			}
 		},
 		"web": {
-			"favicon": "./src/assets/Logo.png"
+			"favicon": "./src/assets/logoNome.png"
 		}
 	}
 }

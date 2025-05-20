@@ -1,13 +1,17 @@
 export const COLORS = {
 
-	black: "#46d89b",
+	verdeLogo: "#9be3d6",
 
-	green1: "#b1e6d1",
-	green2: "#77b1a9",
-	green3: "#3d7b80",
+	verde1: "#bdece3",
+	verde2: "#95e1d3",
+	verde3: "#6dd6c2",
+	cinza1: "#2a2a2a",
 
-	VermLogo: "#FF5B4F",
-	VermFortLogo: "#B71C1C",
+	black1: "#000000",
+	black2: "#111111",
+
+	verdeLetra: "#27796A",
+	AzulRoupa: "#2f4668",
 
 	gray1: "#717f7f",
 	gray2: "a0a0a0",
@@ -15,8 +19,12 @@ export const COLORS = {
 	gray4: "#f1f5f4",
 	gray5: "#dbdbdb",
 
-	blue: "#0004ff",
-	colorDev: "#FFF"
+	blue: "#6320ee",
+
+	bgApp: "#6dd6c2",
+
+	bgButton: "#1d2d44"
+
 
 }
 

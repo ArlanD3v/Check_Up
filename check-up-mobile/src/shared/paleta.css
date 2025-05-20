@@ -1,25 +1,13 @@
-.green0{
-	color: #81C784;
-}
-.green_1{
-	color:#b1e6d1
-}
-.Bgreen_1{
-	background-color:#b1e6d1
-}
-
-.green_2{
-	color:#77b1a9 ;
-}
-.Bgreen_2{
-	background-color: #77b1a9;
-}
-
-.green_escuro{
-	color:#3d7b80 ;
-}
-.Bgreen_escuro{
-	background-color: #3d7b80;
+/*Paleta Oficial*/
+.colors{
+	verdeLogo : #9be3d6;
+	
+	verde1: #bdece3;
+	verde2: #95e1d3; 
+	verde3 :#6dd6c2;
+	cinza1:#2a2a2a;
+	black1: #000000;
+	black2: #111111;
 }
 
 
@@ -28,13 +16,20 @@ color: #dbdbdb;
 color: #a0a0a0;
 color: #E4E4E4;
 color: #f1f5f4;
-color:#f51734;
 
-color:#FF0085;
-color:#0046A7;
 
-color: #451a3e;
-color: #270a33;
+/* Tons verdes*/
+color:#3ccb8d ;
+color: #3bf0ad ;
+color:#265a4e ;
+color: #20312b;
+}
+
+
+/* Tons azuis Royal */
+.Azul{
+color: #0045ad  ;
+
 
 }
 
