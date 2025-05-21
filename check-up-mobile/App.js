@@ -10,10 +10,10 @@ import Services from "./src/screens/services/services.jsx";
 function App() {
 
 	return <>
-		<Services />
+		<Main />
 	</ >
 
 }
 export default App
 
-//01:24 Aula 2
+//02:01 Aula 2
