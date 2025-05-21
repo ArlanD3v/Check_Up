@@ -6,5 +6,6 @@ import male from "../assets/male.png";
 import female from "../assets/female.png";
 import clock from "../assets/clock.png";
 import nomeLogo from "../assets/logoNome.png";
+import logoTeste from "../assets/LogoTeste.png"
 
-export default { home, calendar, profile, logo, male, female, clock, nomeLogo }
+export default { home, calendar, profile, logo, male, female, clock, nomeLogo, logoTeste }
