@@ -4,7 +4,7 @@ export const styles = {
 
 	doctor: {
 		flex: 1,
-		backgroundColor: COLORS.bgApp,
+		backgroundColor: COLORS.verde1,
 		padding: 8,
 		flexDirection: "row",
 		borderWidth: 1,

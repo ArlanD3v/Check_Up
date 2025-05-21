@@ -13,7 +13,7 @@ export const COLORS = {
 	verdeLetra: "#27796A",
 	AzulRoupa: "#2f4668",
 
-	gray1: "#717f7f",
+	gray1: "#868686",
 	gray2: "a0a0a0",
 	gray3: "#E4E4E4",
 	gray4: "#f1f5f4",

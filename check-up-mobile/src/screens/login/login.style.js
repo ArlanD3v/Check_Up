@@ -15,7 +15,7 @@ export const styles = {
 
 
 	logo: {
-		width: 300,
+		width: 200,
 		height: 208,
 	},
 
@@ -46,7 +46,7 @@ export const styles = {
 
 	footerLink: {
 		color: COLORS.blue,
-		fontSize: FONT_SIZE.lg,
+		fontSize: FONT_SIZE.md,
 	},
 
 	devCreator: {
