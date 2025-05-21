@@ -3,20 +3,19 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 export const styles = {
 
 	container: {
-		backgroundColor: COLORS.bgApp,
+		backgroundColor: COLORS.BGAmarelo,
 		flex: 1,
 		justifyContent: "space-between",
 		padding: 40,
 	},
 	containerLogo: {
-
 		alignItems: "center"
 	},
 
 
 	logo: {
-		width: 200,
-		height: 208,
+		width: 350,
+		height: 100,
 	},
 
 	containerInput: {
@@ -24,9 +23,11 @@ export const styles = {
 	},
 
 	input: {
-		backgroundColor: COLORS.gray3,
+		backgroundColor: COLORS.gray5,
 		padding: 10,
 		borderRadius: 6,
+		borderWidth: 0.5,
+		borderColor: COLORS.cinza1,
 
 	},
 
@@ -45,12 +46,11 @@ export const styles = {
 
 
 	footerLink: {
-		color: COLORS.blue,
+		color: COLORS.azul1,
 		fontSize: FONT_SIZE.md,
 	},
 
 	devCreator: {
-
 		alignItems: "center",
 		justifyContent: "center",
 		flexDirection: "row",
@@ -59,7 +59,7 @@ export const styles = {
 	devCreatorColor: {
 		color: COLORS.colorDev,
 		borderRadius: 3,
-		backgroundColor: COLORS.verde1
+
 	}
 
 }

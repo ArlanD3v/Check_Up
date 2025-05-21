@@ -3,7 +3,7 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 export const styles = {
 
 	container: {
-		backgroundColor: COLORS.bgApp,
+		backgroundColor: COLORS.BGAmarelo,
 		flex: 1,
 		justifyContent: "space-around",
 		padding: 40,
@@ -25,10 +25,11 @@ export const styles = {
 	},
 
 	input: {
-		backgroundColor: COLORS.gray3,
+		backgroundColor: COLORS.gray5,
 		padding: 10,
 		borderRadius: 6,
-
+		borderWidth: 0.5,
+		borderColor: COLORS.cinza1,
 	},
 
 	btCenter: {
@@ -45,7 +46,7 @@ export const styles = {
 	},
 
 	footerLink: {
-		color: COLORS.blue,
+		color: COLORS.azul1,
 		fontSize: FONT_SIZE.lg,
 	},
 

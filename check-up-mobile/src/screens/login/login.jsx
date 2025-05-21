@@ -8,7 +8,7 @@ function Login() {
 	return <View style={styles.container}>
 
 		<View style={styles.containerLogo}>
-			<Image source={icon.nomeLogo}
+			<Image source={icon.logoTeste}
 				style={styles.logo} />
 		</View>
 
