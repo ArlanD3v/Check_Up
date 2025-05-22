@@ -24,17 +24,16 @@ function Main() {
 
 			},
 			headerBackgroundContainerStyle: {
-
 				backgroundColor: COLORS.blueCeu
 			},
 			tabBarStyle: {
 				backgroundColor: COLORS.blueCeu,
 				height: 60,
 				borderWidth: 1,
-				borderColor: COLORS.bgApp,
-				borderRadius: 20,
-				elevation: 1,
-				position: "flex"
+				borderColor: COLORS.azul1,
+				borderRadius: 18,
+
+
 			},
 			tabBarItemStyle: {
 				justifyContent: 'center',

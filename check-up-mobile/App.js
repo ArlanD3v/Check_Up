@@ -15,7 +15,7 @@ function App() {
 	return (
 		<NavigationContainer>
 			<View style={{ flex: 1, backgroundColor: COLORS.blueCeu }}>
-				<Schedule />
+				<Main />
 			</View>
 		</NavigationContainer>
 	);
