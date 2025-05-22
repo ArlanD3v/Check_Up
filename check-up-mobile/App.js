@@ -4,16 +4,22 @@ import AbaHome from "./src/screens/abHome/abahome.jsx";
 import AbaCalendar from "./src/screens/abaCalendar/abacalendar.jsx";
 import AbaProfile from "./src/screens/abaProfile/abaprofile.jsx";
 import Main from "./src/screens/main/main.jsx";
-
 import Services from "./src/screens/services/services.jsx";
+import Schedule from "./src/screens/schedule/schedule.jsx";
+
+import { NavigationContainer } from "@react-navigation/native";
+import { View } from "react-native";
+import { COLORS } from "./src/constants/theme.js";
 
 function App() {
-
-	return <>
-		<Main />
-	</ >
-
+	return (
+		<NavigationContainer>
+			<View style={{ flex: 1, backgroundColor: COLORS.blueCeu }}>
+				<Schedule />
+			</View>
+		</NavigationContainer>
+	);
 }
 export default App
 
-//02:01 Aula 2
+//02:28 Aula 2
