@@ -5,7 +5,7 @@ export const styles = {
 	appointment: {
 		flex: 1,
 		marginTop: 1,
-		backgroundColor: COLORS.AmareloBack,
+		backgroundColor: COLORS.blueCeu,
 		padding: 8,
 		marginTop: 9,
 		borderWidth: 1,
@@ -22,7 +22,7 @@ export const styles = {
 	},
 	specialty: {
 		fontSize: FONT_SIZE.sm,
-		color: COLORS.gray1,
+		color: COLORS.gray2,
 		marginBottom: 4,
 
 	},

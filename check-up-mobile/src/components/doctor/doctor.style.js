@@ -4,24 +4,25 @@ export const styles = {
 
 	doctor: {
 		flex: 1,
-		backgroundColor: COLORS.AzulAction,
+		backgroundColor: COLORS.blueCeu,
 		padding: 8,
+
 		flexDirection: "row",
-		borderWidth: 0.6,
+		borderWidth: 0.3,
 		borderColor: COLORS.Borda,
-		marginTop: 3,
+		marginTop: 5,
 		marginBottom: 3,
 		borderRadius: 10,
 	},
 	name: {
 		fontSize: FONT_SIZE.lg,
-		color: COLORS.branco,
+		color: COLORS.black1,
 		marginTop: 5,
 	},
 
 	specialty: {
 		fontSize: FONT_SIZE.sm,
-		color: COLORS.gray5,
+		color: COLORS.gray2,
 	},
 	icon: {
 		width: 50,

@@ -4,8 +4,11 @@ function Button(props) {
 
 	return <>
 		<TouchableOpacity style={[styles.btn,
-		props.theme == "danger" ?
-			styles.danger : styles.primary]}>
+		props.theme == "danger"
+			? styles.danger
+			: props.theme == "primary"
+				? styles.primary
+				: styles.agendamento]}>
 
 			<Text style={styles.text}>
 

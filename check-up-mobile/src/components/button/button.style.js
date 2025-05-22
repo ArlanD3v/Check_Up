@@ -15,6 +15,13 @@ export const styles = {
 		fontSize: FONT_SIZE.md,
 		textAlign: "center",
 	},
+	agendamento: {
+		width: "100%",
+		backgroundColor: COLORS.confirmAgendamento,
+		borderRadius: 10,
+		borderColor: COLORS.bgApp,
+		borderWidth: 2,
+	},
 
 	danger: {
 		width: "100%",
