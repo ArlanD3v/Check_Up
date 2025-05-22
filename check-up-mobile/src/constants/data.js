@@ -93,7 +93,7 @@ export const doctors_services = [
 	{
 		id_service: 1,
 		description: "Consulta Pediátrica",
-		price: 200
+		price: 499.99
 	},
 	{
 		id_service: 2,

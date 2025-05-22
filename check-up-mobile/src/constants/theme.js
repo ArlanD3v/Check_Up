@@ -1,6 +1,5 @@
 export const COLORS = {
-
-	verdeLogo: "#9be3d6",
+	BGCaixa: "#f8ffe5",
 
 	verde1: "#bdece3",
 	verde2: "#95e1d3",
@@ -14,14 +13,15 @@ export const COLORS = {
 	AzulRoupa: "#2f4668",
 
 	gray1: "#868686",
-	gray2: "a0a0a0",
 	gray3: "#E4E4E4",
 	gray4: "#f1f5f4",
 	gray5: "#dbdbdb",
 
 	blue: "#6320ee",
+	blueCeu: "#c0fdff",
 	bgApp: "#6dd6c2",
 	bgButton: "#1d2d44",
+	confirmAgendamento: "#004e64",
 
 	/* Paleta OFC */
 
