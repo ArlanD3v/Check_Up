@@ -22,7 +22,7 @@ function Login() {
 					secureTextEntry={true} />
 			</View>
 			<View style={styles.btCenter}>
-				<Button text="Acessar" />
+				<Button text="Acessar" theme="primary" />
 			</View>
 		</View>
 

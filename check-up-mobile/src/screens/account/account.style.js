@@ -3,7 +3,7 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 export const styles = {
 
 	container: {
-		backgroundColor: COLORS.BGAmarelo,
+		backgroundColor: COLORS.blueCeu,
 		flex: 1,
 		justifyContent: "space-around",
 		padding: 40,
@@ -11,24 +11,21 @@ export const styles = {
 	containerLogo: {
 		alignItems: "center"
 	},
-
 	logo: {
 
 		width: 300,
 		height: 208,
 
 	},
-
 	containerInput: {
 		marginBottom: 15,
-
 	},
 
 	input: {
-		backgroundColor: COLORS.gray5,
-		padding: 10,
+		backgroundColor: COLORS.gray4,
+		padding: 15,
 		borderRadius: 6,
-		borderWidth: 0.5,
+		borderWidth: 0.2,
 		borderColor: COLORS.cinza1,
 	},
 
@@ -42,7 +39,6 @@ export const styles = {
 		justifyContent: "center",
 		flexDirection: "row",
 		fontSize: FONT_SIZE.md,
-
 	},
 
 	footerLink: {

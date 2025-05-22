@@ -1,13 +1,24 @@
 import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 
 export const styles = {
+	cxPai: {
+
+		justifyContent: "center",
+		alignItems: "center",
+		flex: 1,
+		backgroundColor: COLORS.blueCeu,
+		paddingTop: 20,
+	},
 
 	container: {
-		backgroundColor: COLORS.BGAmarelo,
 		flex: 1,
-		padding: 25,
-
+		width: "92%",
+		padding: 15,
+		backgroundColor: COLORS.BGCaixa,
+		borderTopEndRadius: 8,
+		borderTopLeftRadius: 8,
 	},
+
 	text: {
 		fontSize: FONT_SIZE.lg,
 		color: COLORS.gray2,

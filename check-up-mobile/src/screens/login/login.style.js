@@ -3,9 +3,9 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 export const styles = {
 
 	container: {
-		backgroundColor: COLORS.BGAmarelo,
+		backgroundColor: COLORS.blueCeu,
 		flex: 1,
-		justifyContent: "space-between",
+		justifyContent: "space-around",
 		padding: 40,
 	},
 	containerLogo: {
@@ -23,10 +23,10 @@ export const styles = {
 	},
 
 	input: {
-		backgroundColor: COLORS.gray5,
-		padding: 10,
+		backgroundColor: COLORS.gray4,
+		padding: 15,
 		borderRadius: 6,
-		borderWidth: 0.5,
+		borderWidth: 0.3,
 		borderColor: COLORS.cinza1,
 
 	},
@@ -47,11 +47,13 @@ export const styles = {
 
 	footerLink: {
 		color: COLORS.azul1,
-		fontSize: FONT_SIZE.md,
+		fontSize: FONT_SIZE.lg,
 	},
 
 	devCreator: {
-		alignItems: "center",
+
+
+		alignItems: "flex-end",
 		justifyContent: "center",
 		flexDirection: "row",
 

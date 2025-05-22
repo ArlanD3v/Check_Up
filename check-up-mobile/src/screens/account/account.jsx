@@ -34,10 +34,10 @@ function Account() {
 
 		<View style={styles.footer} >
 
-			<Text style={styles.footer}> Já tenho conta. </Text>
+			<Text style={styles.footer}> Já possuo uma conta. </Text>
 
 			<TouchableOpacity>
-				<Text style={styles.footerLink} >Fazer login.</Text>
+				<Text style={styles.footerLink}>Fazer login</Text>
 			</TouchableOpacity>
 		</View>
 

@@ -2,11 +2,22 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 
 export const styles = {
 
+	cxPai: {
+		justifyContent: "center",
+		alignItems: "center",
+		flex: 1,
+		backgroundColor: COLORS.blueCeu,
+		paddingTop: 20
+	},
+
 	container: {
 		flex: 1,
+		width: "90%",
 		alignItems: "center",
-		backgroundColor: COLORS.BGAmarelo,
+		backgroundColor: COLORS.BGCaixa,
 		paddingTop: 50,
+		borderTopEndRadius: 8,
+		borderTopLeftRadius: 8,
 
 	},
 
@@ -15,9 +26,9 @@ export const styles = {
 		width: "90%",
 		backgroundColor: COLORS.branco,
 		borderColor: COLORS.gray1,
-		borderRadius: 5,
+		borderRadius: 3,
 		paddingLeft: 8,
-		paddingTop: 15,
+		paddingTop: 10,
 		paddingBottom: 15,
 		marginBottom: 15
 	},

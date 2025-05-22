@@ -7,20 +7,22 @@ import icon from "../../constants/icon.js"
 
 function AbaCalendar() {
 
-	return <View style={styles.container}>
+	return <View style={styles.cxPai}>
+		<View style={styles.container}>
 
-		<FlatList data={appointments}
-			keyExtractor={(appoint) => appoint.id_appointment}
-			showsVerticalScrollIndicator={false}
+			<FlatList data={appointments}
+				keyExtractor={(appoint) => appoint.id_appointment}
+				showsVerticalScrollIndicator={false}
 
-			renderItem={({ item }) => {
+				renderItem={({ item }) => {
 
-				return <Appointment service={item.service}
-					doctor={item.doctor}
-					specialty={item.specialty} />
+					return <Appointment service={item.service}
+						doctor={item.doctor}
+						specialty={item.specialty} />
 
-			}} />
+				}} />
 
+		</View>
 	</View>
 }
 

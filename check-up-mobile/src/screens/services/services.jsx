@@ -2,6 +2,7 @@ import { FlatList, Image, Text, View } from "react-native";
 import { styles } from "./services.style.js";
 import { doctors_services } from "../../constants/data.js";
 import icon from "../../constants/icon.js"
+import Service from "../../components/service/service.jsx";
 
 
 function Services() {
@@ -10,7 +11,8 @@ function Services() {
 
 		<View style={styles.banner}>
 			<Image source={icon.female} style={styles.icon} />
-			<Text style={styles.text}>Arlan</Text>
+			<Text style={styles.name}>Arlan</Text>
+			<Text style={styles.specialty}>Neurologia</Text>
 		</View>
 
 
@@ -19,7 +21,8 @@ function Services() {
 			showsVerticalScrollIndicator={false}
 
 			renderItem={({ item }) => {
-				return <Text>{item.description}</Text>
+				return <Service description={item.description}
+					price={item.price} />
 			}} />
 
 	</View>
