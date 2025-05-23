@@ -1,13 +1,15 @@
-import { Image, Text, View } from "react-native"
+import { Image, StyleSheet, Text, View } from "react-native"
 import { styles } from "./appointment.style.js"
 import icon from "../../constants/icon.js"
 import Button from "../button/button.jsx"
+import { BlurView } from "expo-blur"
 
 function Appointment(props) {
 	return <View style={styles.appointment}>
 		<Text style={styles.name}> {props.service} - {props.doctor}
 		</Text>
 		<Text style={styles.specialty}> {props.specialty}</Text>
+		<BlurView intensity={10} tint="light" style={StyleSheet.absoluteFill} />
 
 		<View style={styles.container}>
 			<View style={styles.containerBooking}>

@@ -1,11 +1,11 @@
-import { NavigationContainer } from "@react-navigation/native"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import icon from "../../constants/icon.js"
+import { BlurView } from 'expo-blur';
 
 import AbaHome from "../abHome/abahome.jsx"
 import AbaCalendar from "../abaCalendar/abacalendar.jsx"
 import AbaProfile from "../abaProfile/abaprofile.jsx"
-import { View, Image } from "react-native"
+import { View, Image, StyleSheet } from "react-native"
 import { COLORS } from "../../constants/theme.js"
 
 
@@ -27,12 +27,10 @@ function Main() {
 				backgroundColor: COLORS.blueCeu
 			},
 			tabBarStyle: {
-				backgroundColor: COLORS.blueCeu,
 				height: 60,
 				borderWidth: 1,
 				borderColor: COLORS.azul1,
-				borderRadius: 18,
-
+				borderRadius: 22,
 
 			},
 			tabBarItemStyle: {
@@ -40,8 +38,13 @@ function Main() {
 				alignItems: 'center',
 				marginVertical: 4,
 
-
 			},
+			tabBarBackground: () => (
+				<BlurView tint="light" intensity={60} style={{
+					...StyleSheet.absoluteFillObject,
+
+				}} />
+			),
 			animation: "shift",
 
 		}}

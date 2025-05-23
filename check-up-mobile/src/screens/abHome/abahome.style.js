@@ -8,6 +8,7 @@ export const styles = {
 		flex: 1,
 		backgroundColor: COLORS.blueCeu,
 		paddingTop: 20,
+
 	},
 
 	container: {
@@ -17,6 +18,7 @@ export const styles = {
 		backgroundColor: COLORS.BGCaixa,
 		borderTopEndRadius: 8,
 		borderTopLeftRadius: 8,
+
 
 	},
 	text: {

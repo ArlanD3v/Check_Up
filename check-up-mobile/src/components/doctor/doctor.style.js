@@ -6,13 +6,15 @@ export const styles = {
 		flex: 1,
 		backgroundColor: COLORS.blueCeu,
 		padding: 8,
-
 		flexDirection: "row",
-		borderWidth: 0.3,
+		borderWidth: 0.5,
 		borderColor: COLORS.Borda,
-		marginTop: 5,
+		marginTop: 10,
 		marginBottom: 3,
 		borderRadius: 10,
+		overflow: "hidden",
+		position: "relative",
+		elevation: 5
 	},
 	name: {
 		fontSize: FONT_SIZE.lg,

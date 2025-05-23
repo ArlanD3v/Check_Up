@@ -7,10 +7,13 @@ export const styles = {
 		marginTop: 1,
 		backgroundColor: COLORS.blueCeu,
 		padding: 8,
-		marginTop: 9,
+		marginTop: 15,
 		borderWidth: 1,
 		borderColor: COLORS.gray,
-		borderRadius: 6,
+		borderRadius: 10,
+		overflow: "hidden",
+		position: "relative",
+		elevation: 3
 
 	},
 

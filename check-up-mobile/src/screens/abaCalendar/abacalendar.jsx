@@ -2,7 +2,6 @@ import { FlatList, View } from "react-native";
 import { styles } from "./abacalendar.style.js";
 import { appointments } from "../../constants/data.js";
 import Appointment from "../../components/appointment/appointment.jsx";
-import icon from "../../constants/icon.js"
 
 
 function AbaCalendar() {

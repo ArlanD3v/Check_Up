@@ -21,5 +21,3 @@ function App() {
 	);
 }
 export default App
-
-//02:28 Aula 2
